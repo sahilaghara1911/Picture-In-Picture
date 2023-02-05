@@ -1,2 +1,41 @@
  @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
  
+ html{
+    box-sizing: border-box;
+ }
+
+ body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.744);
+
+ }
+
+ .button-container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 7px;
+ }
+
+ button {
+   cursor: pointer;
+   outline: none;
+   width: 120px;
+   height: 75px;
+   font-family: barlow, sans-serif;
+   font-size: 25px;
+   background: #676767;
+   border: 2px solid black;
+   border-radius: 7px;
+ }
+
+ button :hover {
+   background-color: #676760;
+ }
+ button :active {
+   transform: translateY(3px);
+   box-shadow: 0  6px 6px 0 rgba(0, 0, 0, 0.3);
+ }
